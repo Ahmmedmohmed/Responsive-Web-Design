@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+      .btn-group .nav-link {
+          flex: 1;
+          text-align: center;
+      }
+      .btn-red {
+          background-color: rgb(200, 16, 46);
+          color: white;
+           
+          margin-top: -10px; 
+          margin-bottom: -10px; 
+      }
+      .btn-red:hover {
+          background-color: darkred;
+      }
+
+      .background-image {
+            background-image: url('./images/3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 29vh;
+            width: 100vw;
+        }
+
+        .btn1card{
+                    
+          width: 13em;
+
+          background-color: white;
+          border:  rgb(231, 226, 226) ;
+
+          border: outset ;
+
+          border: inset;
+
+             text-align: left;
+
+             position: relative;
+
+            
+
+  
+
+        }
+
+        .btn2card{
+                    
+                    width: 9em;
+
+                    
+          
+                    background-color: white;
+                    border:  rgb(231, 226, 226) ;
+          
+                    border: outset ;
+          
+                    border: inset;
+          
+                      
+                 
+            
+          
+                  }
+        .care {
+              position: absolute; /* Positions the caret relative to the button */
+              right: 0.5em; /* Adjusts the caret to the right side */
+              top: 50%; /* Centers the caret vertically */
+             transform: translateY(-50%); /* Adjusts vertical centering */
+             color: red; /* Makes the caret red */
+}
+
+        
+  </style>
+
+    <title>Pizza</title>
+  </head>
+  <body >
+      
+    <div class="container-md">
+      <div class="row justify-content-between">
+        <div class="col-md-6 d-none d-md-block">
+          <img src="./images/2.png" alt="Pizza Image">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="d-flex justify-content-md-end justify-content-center">
+            <nav class="navbar navbar-expand">
+              <div class="container-fluid">
+                <ul class="navbar-nav me-auto w-100">
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">SIGN IN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">CREATE ACCOUNT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">FIND PIZZA HUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-danger" href="#">عربى</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="d-flex justify-content-center justify-content-md-end">
+            <nav class="navbar navbar-expand">
+              <div class="container-fluid">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <img src="images/8.png" class="nav-link text-secondary" href="#">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">CALL US-19000</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Sign in</a>
+                  </li>
+                  <li class="nav-item">
+                    <img src="./images/9.png" class="nav-link text-secondary" href="#">
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0 text-center">
+      <div class="col-md-7 d-none d-md-block p-0">
+        <div class="d-flex flex-wrap">
+        <div class="btn-group flex-fill w-100 m-0" role="group" aria-label="Button group with nested dropdown">
+          <a class="btn nav-link flex-fill text-center border border-dark border-bottom-0 font-weight-bold">PIZZA</a>
+          <a class="btn nav-link flex-fill text-center border border-dark border-bottom-0 font-weight-bold">STARTERS</a>
+          <a class="btn nav-link flex-fill text-center border border-dark border-bottom-0 font-weight-bold">SALADS</a>
+          <div class="btn-group flex-fill">
+            <a class="btn nav-link flex-fill text-center border border-dark border-bottom-0 font-weight-bold  px-5" data-bs-toggle="dropdown" aria-expanded="false">
+              MORE <span class="text-danger"  >▼</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            </ul>
+          </div>
+          <a class="  btn-warning nav-link flex-fill text-center border border-dark border-bottom-0  border-end-0 font-weight-bold">DEALS</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-5 col-sm-12 p-0">
+        <div class=" shadow-lg bg-danger rounded">
+
+ 
+        <a class="   btn btn-red flex-fill  font-weight-bold  py-3 w-100">START YOUR ORDER</a>
+        </div >
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row g-0">
+       
+          <div class="col-12 p-0 background-image d-flex align-items-end ">
+             
+              <div class=" bg-dark k bg-opacity-10" style="width: 100vw;">
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">ALL</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">DEEF</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">CHICKN</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">VEGETARAN</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">SPECIALITY</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">EXTREME PIZZA</button>
+                <button type="button" class="btn btn-dark btn-dark-opacity mx-3">SEE FOOD</button>
+           
+          </div>
+             
+      </div> 
+      </div>
+      <div class="container-md">
+        <div class="container-md">
+          <div class="row bg-light justify-content-between p-0">
+              <div class="col-md-5 mt-5 mb-4 p-0">
+                  <div class="card" style="max-width: 700px; max-height: 500px;">
+                      <div class="row g-0">
+                          <div class="px-0 col-md-4">
+                              <div class="text-center">
+                                  <img src="./images/4.png" class="img-fluid p-2 rounded-start" style="width: 200px;" alt="...">
+                              </div>
+                              <p class="fw-bold text-center font-weight-bold">EGP 75.88</p>
+                          </div>
+                          <div class="col-md-8 p-0">
+                              <div class="card-body p-3 ps-2">
+                                  <h5 class="card-title text-danger">SUPER SUPREME</h5>
+                                  <p class="card-text fw-semibold">Our famous combination of Beef Pepperoni,
+                                      juicy Beef, Mushrooms, Green Peppers,
+                                      Onions, Black Olives and melting mozzarella
+                                      cheese.</p>
+                                  <div class="d-flex flex-wrap">
+                                      <div class="dropdown m-1">
+                                          <button type="button" class="btn btn1card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                              pan <span class="care">▼</span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                              <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                              <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="btn-group">
+                                          <button type="button" class="btn btn2card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                                              Medium <span class="text-danger">▼</span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">Large</a></li>
+                                              <li><a class="dropdown-item" href="#">Small</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <div>
+                                      <button type="button" class="btn btn-secondary mt-2" style="width: 9em;">CUSTOMIZE</button>
+                                      <button type="button" class="btn btn-danger mt-2" style="width: 12em; height: 3em;">ADD TO CART</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-5 mt-5 mb-4 p-0">
+                  <div class="card" style="max-width: 700px; max-height: 500px;">
+                      <div class="row g-0">
+                          <div class="px-0 col-md-4">
+                              <div class="text-center">
+                                  <img src="./images/5.png" class="img-fluid p-2 rounded-start" style="width: 200px;" alt="...">
+                              </div>
+                              <p class="fw-bold text-center font-weight-bold">EGP 75.88</p>
+                          </div>
+                          <div class="col-md-8 p-0">
+                              <div class="card-body p-3 ps-2">
+                                  <h5 class="card-title text-danger text-uppercase">CLASSIC PEPPERONI</h5>
+                                  <p class="card-text fw-semibold">One of our all time specialties. Ameaty feast
+                                    of Pepperoni, Mushroom, Black Olives,
+                                    mozzarella cheese and tomato sauce.</p>
+                                  <div class="d-flex flex-wrap">
+                                      <div class="dropdown m-1">
+                                          <button type="button" class="btn btn1card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                              pan <span class="care">▼</span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                              <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                              <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="btn-group">
+                                          <button type="button" class="btn btn2card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                                              Medium <span class="text-danger">▼</span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">Large</a></li>
+                                              <li><a class="dropdown-item" href="#">Small</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <div>
+                                      <button type="button" class="btn btn-secondary mt-2" style="width: 9em;">CUSTOMIZE</button>
+                                      <button type="button" class="btn btn-danger mt-2" style="width: 12em; height: 3em;">ADD TO CART</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-md">
+        <div class="row bg-light justify-content-between p-0">
+            <div class="col-md-5 mt-5 mb-4 p-0">
+                <div class="card" style="max-width: 700px; max-height: 500px;">
+                    <div class="row g-0">
+                        <div class="px-0 col-md-4">
+                            <div class="text-center">
+                                <img src="./images/6.png" class="img-fluid p-2 rounded-start" style="width: 200px;" alt="...">
+                            </div>
+                            <p class="fw-bold text-center font-weight-bold">EGP 64.47</p>
+                        </div>
+                        <div class="col-md-8 p-0">
+                            <div class="card-body p-3 ps-2">
+                                <h5 class="card-title text-danger text-uppercase ">CHICKEN SUPREME</h5>
+                                <p class="card-text fw-semibold">The ultimatemix of Chicken together with
+                                  Mushrooms, Red Onions, Green Peppers,
+                                  fresh Tomatoes, Olives and melting
+                                  mozzarella cheese..</p>
+                                <div class="d-flex flex-wrap">
+                                    <div class="dropdown m-1">
+                                        <button type="button" class="btn btn1card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                            pan <span class="care">▼</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn2card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                                            Medium <span class="text-danger">▼</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Large</a></li>
+                                            <li><a class="dropdown-item" href="#">Small</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-secondary mt-2" style="width: 9em;">CUSTOMIZE</button>
+                                    <button type="button" class="btn btn-danger mt-2" style="width: 12em; height: 3em;">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-5 mt-5 mb-4 p-0">
+                <div class="card" style="max-width: 700px; max-height: 500px;">
+                    <div class="row g-0">
+                        <div class="px-0 col-md-4">
+                            <div class="text-center">
+                                <img src="./images/4.png" class="img-fluid p-2 rounded-start" style="width: 200px;" alt="...">
+                            </div>
+                            <p class="fw-bold text-center font-weight-bold">EGP 110.53</p>
+                        </div>
+                        <div class="col-md-8 p-0">
+                            <div class="card-body p-3 ps-2">
+                                <h5 class="card-title text-danger text-uppercase ">SPICY CHICKEN RANCH</h5>
+                                <p class="card-text fw-semibold">Grilled chicken, fresh tomatoes, mushrooms
+                                  and green Jalapeno peppers with a drizzle of
+                                  thick Peri Peri sauce..</p>
+                                <div class="d-flex flex-wrap">
+                                    <div class="dropdown m-1">
+                                        <button type="button" class="btn btn1card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                            pan <span class="care">▼</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn2card" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                                            Medium <span class="text-danger">▼</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Large</a></li>
+                                            <li><a class="dropdown-item" href="#">Small</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-secondary mt-2" style="width: 9em;">CUSTOMIZE</button>
+                                    <button type="button" class="btn btn-danger mt-2" style="width: 12em; height: 3em;">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+  </body>
+</html>
